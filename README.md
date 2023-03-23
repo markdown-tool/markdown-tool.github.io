@@ -1,29 +1,55 @@
 # markdown-to-ppt
-一个markdown在线制作精美PPT在线工具
 
-## 使用方法
-鼠标放在屏幕左上角，展示配置按钮，点开即可使用
+English | [简体中文](./README_zh.md) 
 
-## 特点
+A markdown online production exquisite PPT online tool
 
-1. 完全使用Markdown语法，制作PPT极致便捷
-2. 各种主题和精美特效，使用极其方便
-3. 支持图片上传
-4. 支持远程拉取Markdown线上文件
-5. 支持本地存储
-6. 开箱即用，无需注册，无后端，无隐私泄漏
-7. 支持移动端、下载PDF、旁白模式等
+## Usage
 
-## 说明
+Place the mouse in the upper left corner of the screen to display the configuration button. Click it to use it
 
-- 一个#表示一级标题，同时其下的内容表示左右分页里一页的内容
-- 两个#表示二级标题，同时其下的内容表示左右分页里一页的内容
-- 三个#表示三级标题，同时其下的内容表示上下分页里一页的内容
-- 如想使用特殊效果，可参考范例
-  - 如代码后的 `[7-9|10-12|12-15]`表示代码可按行分段亮亮展示
-  - 标题下的`<!-- .slide: data-auto-animate -->` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
-  - 文字后的`<!-- .element: class="fragment" -->`表示给当前元素添加class，`fragment`这个class能让元素一步一步展示，而不是一次性展示
-  - 如果想给元素添加样式，可以举一反三如`<!-- .element: style="color:red" -->`
-  - 标题下的`<!-- .slide: class="column-2" -->` 可让当前页面两栏展示
-  - `*内容*` 会让内容文字更小。 也可以用`<small>内容</small>`
-  - 预置了一些常用的颜色标签，如`<yellow>`、`<red>`、`<green>`、`<grey>`等
+
+
+## Features
+
+
+
+1. Completely using Markdown syntax, making PPT extremely convenient
+
+Various themes and exquisite special effects, extremely convenient to use
+
+3. Support for image uploading
+
+4. Support remote pull of Markdown online files
+
+5. Support for local storage
+
+6. Out of the box, no registration required, no backend, no privacy disclosure
+
+7. Support mobile terminal, download PDF, narration mode, etc
+
+
+
+## Description
+
+- A # represents the first level title, and the content below it represents the content of one page in the left and right pages
+
+- The two #'s represent the secondary title, while the content below represents the content of one page in the left and right pages
+
+- The three #'s represent three-level titles, while the content below represents the content of one page in the upper and lower pages
+
+- For special effects, please refer to examples
+
+- For example, the '[7-9 | 10-12 | 12-15]' after the code indicates that the code can be highlighted by line segments
+
+- The '<! -- Slide: data auto animate -->` Indicates that if the current page is switched to the next page, the same part will have a transition animation, and different parts will be displayed. In short, it can produce great results
+
+- The `<! -- after the text Element: class="fragment" -->` Indicates that a class is added to the current element, and the 'fragment' class enables the element to be displayed step by step instead of being displayed at once
+
+- If you want to add a style to an element, you can draw inferences from one example, such as'<! ' element: style="color:red" -->`
+
+- The '<! -- Slide: class="column 2" -->` Allows the current page to be displayed in two columns
+
+- '* Content *' will make the content text smaller. You can also use '<small>content</small>`
+
+- Some commonly used color labels are preset, such as'<yellow>','<red>','<green>', and'<green>'
