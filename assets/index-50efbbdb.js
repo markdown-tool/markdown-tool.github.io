@@ -1092,21 +1092,23 @@ ${i[n]}
 <script type="text/template">
 ${i[n]}
 <\/script>
-      `;return t};let Gu=`# markdown-to-ppt
-一个markdown在线制作精美PPT在线工具
+      `;return t};let Gu=`# markdown to ppt
+
+一个 markdown 在线制作精美 PPT 在线工具
 
 ## 使用方法
+
 鼠标放在屏幕左上角，展示配置按钮，点开即可使用
 
 ## 特点
 
-1. 完全使用Markdown语法，制作PPT极致便捷
+1. 完全使用 Markdown 语法，制作 PPT 极致便捷
 2. 各种主题和精美特效，使用极其方便
 3. 支持图片上传
-4. 支持远程拉取Markdown线上文件
+4. 支持远程拉取 Markdown 线上文件
 5. 支持本地存储
 6. 开箱即用，无需注册，无后端，无隐私泄漏
-7. 支持移动端、下载PDF、旁白模式等
+7. 支持移动端、下载 PDF、旁白模式等
 
 ## 说明
 
@@ -1114,28 +1116,55 @@ ${i[n]}
 - 两个#表示二级标题，同时其下的内容表示左右分页里一页的内容
 - 三个#表示三级标题，同时其下的内容表示上下分页里一页的内容
 - 如想使用特殊效果，可参考范例
-  - 如代码后的 \`[7-9|10-12|12-15]\`表示代码可按行分段亮亮展示
-  - 标题下的\`<!-- .slide: data-auto-animate -->\` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
-  - 文字后的\`<!-- .element: class="fragment" -->\`表示给当前元素添加class，\`fragment\`这个class能让元素一步一步展示，而不是一次性展示
-  - 如果想给元素添加样式，可以举一反三如\`<!-- .element: style="color:red" -->\`
-  - 标题下的\`<!-- .slide: class="column-2" -->\` 可让当前页面两栏展示
-  - \`*内容*\` 会让内容文字更小。 也可以用\`<small>内容</small>\`
-  - 预置了一些常用的颜色标签，如\`<yellow>\`、\`<red>\`、\`<green>\`、\`<grey>\`等
-`,My=`# markdown-to-ppt
-一个markdown在线制作精美PPT在线工具
+
+  - 如代码后的 \`[7 - 9 | 10 - 12 | 12 - 15]\`表示代码可按行分段亮亮展示
+  - 标题下的\`< !-- .slide: data-auto - animate-- > \` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
+- 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
+  - 如果想给元素添加样式，可以举一反三如\`< !-- .element: style = "color:red" -- > \`
+  - 标题下的\`< !-- .slide: class="column-2" -- > \` 可让当前页面两栏展示
+- \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
+  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey >\`等
+
+## 获取用户信息
+
+本网站不会获取用户的个人信息。
+
+## 利用用户信息
+
+本网站不使用使用者的个人信息。
+
+## 用户信息的第三方提供
+
+本网站不会向第三方提供使用者的个人信息。
+
+## 使用工具
+
+本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
+
+## 联系信息
+
+如果有什么不明白的地方请咨询。
+
+## 联系方式
+
+个人博客：https://seiri-blog.github.io/
+`,My=`# markdown to ppt
+
+一个 markdown 在线制作精美 PPT 在线工具
 
 ## 使用方法
+
 鼠标放在屏幕左上角，展示配置按钮，点开即可使用
 
 ## 特点
 
-1. 完全使用Markdown语法，制作PPT极致便捷
+1. 完全使用 Markdown 语法，制作 PPT 极致便捷
 2. 各种主题和精美特效，使用极其方便
 3. 支持图片上传
-4. 支持远程拉取Markdown线上文件
+4. 支持远程拉取 Markdown 线上文件
 5. 支持本地存储
 6. 开箱即用，无需注册，无后端，无隐私泄漏
-7. 支持移动端、下载PDF、旁白模式等
+7. 支持移动端、下载 PDF、旁白模式等
 
 ## 说明
 
@@ -1143,13 +1172,38 @@ ${i[n]}
 - 两个#表示二级标题，同时其下的内容表示左右分页里一页的内容
 - 三个#表示三级标题，同时其下的内容表示上下分页里一页的内容
 - 如想使用特殊效果，可参考范例
-  - 如代码后的 \`[7-9|10-12|12-15]\`表示代码可按行分段亮亮展示
-  - 标题下的\`<!-- .slide: data-auto-animate -->\` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
-  - 文字后的\`<!-- .element: class="fragment" -->\`表示给当前元素添加class，\`fragment\`这个class能让元素一步一步展示，而不是一次性展示
-  - 如果想给元素添加样式，可以举一反三如\`<!-- .element: style="color:red" -->\`
-  - 标题下的\`<!-- .slide: class="column-2" -->\` 可让当前页面两栏展示
-  - \`*内容*\` 会让内容文字更小。 也可以用\`<small>内容</small>\`
-  - 预置了一些常用的颜色标签，如\`<yellow>\`、\`<red>\`、\`<green>\`、\`<grey>\`等
+
+  - 如代码后的 \`[7 - 9 | 10 - 12 | 12 - 15]\`表示代码可按行分段亮亮展示
+  - 标题下的\`< !-- .slide: data-auto - animate-- > \` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
+- 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
+  - 如果想给元素添加样式，可以举一反三如\`< !-- .element: style = "color:red" -- > \`
+  - 标题下的\`< !-- .slide: class="column-2" -- > \` 可让当前页面两栏展示
+- \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
+  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey >\`等
+
+## 获取用户信息
+
+本网站不会获取用户的个人信息。
+
+## 利用用户信息
+
+本网站不使用使用者的个人信息。
+
+## 用户信息的第三方提供
+
+本网站不会向第三方提供使用者的个人信息。
+
+## 使用工具
+
+本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
+
+## 联系信息
+
+如果有什么不明白的地方请咨询。
+
+## 联系方式
+
+个人博客：https://seiri-blog.github.io/
 `;var di=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Py(r){return r&&r.__esModule&&Object.prototype.hasOwnProperty.call(r,"default")?r.default:r}var Xa={},Ly={get exports(){return Xa},set exports(r){Xa=r}};/**
  * @license
  * Lodash <https://lodash.com/>

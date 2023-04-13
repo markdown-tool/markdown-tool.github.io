@@ -1,49 +1,56 @@
-# markdown-to-ppt
+# markdown to ppt
 
-English | [简体中文](./README_zh.md) 
+一个 markdown 在线制作精美 PPT 在线工具
 
-A markdown online production exquisite PPT online tool
+## 使用方法
 
-## Usage
+鼠标放在屏幕左上角，展示配置按钮，点开即可使用
 
-Place the mouse in the upper left corner of the screen to display the configuration button. Click it to use it
+## 特点
 
-## Features
+1. 完全使用 Markdown 语法，制作 PPT 极致便捷
+2. 各种主题和精美特效，使用极其方便
+3. 支持图片上传
+4. 支持远程拉取 Markdown 线上文件
+5. 支持本地存储
+6. 开箱即用，无需注册，无后端，无隐私泄漏
+7. 支持移动端、下载 PDF、旁白模式等
 
-1. Completely using Markdown syntax, making PPT extremely convenient
+## 说明
 
-Various themes and exquisite special effects, extremely convenient to use
+- 一个#表示一级标题，同时其下的内容表示左右分页里一页的内容
+- 两个#表示二级标题，同时其下的内容表示左右分页里一页的内容
+- 三个#表示三级标题，同时其下的内容表示上下分页里一页的内容
+- 如想使用特殊效果，可参考范例
 
-3. Support for image uploading
+  - 如代码后的 `[7-9|10-12|12-15]`表示代码可按行分段亮亮展示
+  - 标题下的`<!-- .slide: data-auto-animate -->` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
+  - 文字后的`<!-- .element: class="fragment" -->`表示给当前元素添加 class，`fragment`这个 class 能让元素一步一步展示，而不是一次性展示
+  - 如果想给元素添加样式，可以举一反三如`<!-- .element: style="color:red" -->`
+  - 标题下的`<!-- .slide: class="column-2" -->` 可让当前页面两栏展示
+  - `*内容*` 会让内容文字更小。 也可以用`<small>内容</small>`
+  - 预置了一些常用的颜色标签，如`<yellow>`、`<red>`、`<green>`、`<grey>`等
 
-4. Support remote pull of Markdown online files
+## 获取用户信息
 
-5. Support for local storage
+本网站不会获取用户的个人信息。
 
-6. Out of the box, no registration required, no backend, no privacy disclosure
+## 利用用户信息
 
-7. Support mobile terminal, download PDF, narration mode, etc
+本网站不使用使用者的个人信息。
 
-## Description
+## 用户信息的第三方提供
 
-- A # represents the first level title, and the content below it represents the content of one page in the left and right pages
+本网站不会向第三方提供使用者的个人信息。
 
-- The two #'s represent the secondary title, while the content below represents the content of one page in the left and right pages
+## 使用工具
 
-- The three #'s represent three-level titles, while the content below represents the content of one page in the upper and lower pages
+本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
 
-- For special effects, please refer to examples
+## 联系信息
 
-  - For example, the '[7-9 | 10-12 | 12-15]' after the code indicates that the code can be highlighted by line segments
+如果有什么不明白的地方请咨询。
 
-  - The '<! -- Slide: data auto animate -->` Indicates that if the current page is switched to the next page, the same part will have a transition animation, and different parts will be displayed. In short, it can produce great results
+## 联系方式
 
-  - The `<! -- after the text Element: class="fragment" -->` Indicates that a class is added to the current element, and the 'fragment' class enables the element to be displayed step by step instead of being displayed at once
-
-  - If you want to add a style to an element, you can draw inferences from one example, such as'<! ' element: style="color:red" -->`
-
-  - The '<! -- Slide: class="column 2" -->` Allows the current page to be displayed in two columns
-
-  - '* Content *' will make the content text smaller. You can also use '<small>content</small>`
-
-  - Some commonly used color labels are preset, such as'<yellow>','<red>','<green>', and'<green>'
+个人博客：https://seiri-blog.github.io/
