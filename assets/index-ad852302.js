@@ -1119,35 +1119,11 @@ ${i[n]}
 
   - 如代码后的 \`[7 - 9 | 10 - 12 | 12 - 15]\`表示代码可按行分段亮亮展示
   - 标题下的\`< !-- .slide: data-auto - animate-- > \` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
-- 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
+  - 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
   - 如果想给元素添加样式，可以举一反三如\`< !-- .element: style = "color:red" -- > \`
   - 标题下的\`< !-- .slide: class="column-2" -- > \` 可让当前页面两栏展示
-- \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
-  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey >\`等
-
-## 获取用户信息
-
-本网站不会获取用户的个人信息。
-
-## 利用用户信息
-
-本网站不使用使用者的个人信息。
-
-## 用户信息的第三方提供
-
-本网站不会向第三方提供使用者的个人信息。
-
-## 使用工具
-
-本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
-
-## 联系信息
-
-如果有什么不明白的地方请咨询。
-
-## 联系方式
-
-个人博客：https://seiri-blog.github.io/
+  - \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
+  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey > \`等
 `,My=`# markdown to ppt
 
 一个 markdown 在线制作精美 PPT 在线工具
@@ -1175,35 +1151,11 @@ ${i[n]}
 
   - 如代码后的 \`[7 - 9 | 10 - 12 | 12 - 15]\`表示代码可按行分段亮亮展示
   - 标题下的\`< !-- .slide: data-auto - animate-- > \` 表示当前页面如果切到下一页，相同的部分会有过渡动画，不同的部分会展示。总之可出现很棒的效果
-- 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
+  - 文字后的\`< !-- .element: class="fragment" -- > \`表示给当前元素添加 class，\`fragment\`这个 class 能让元素一步一步展示，而不是一次性展示
   - 如果想给元素添加样式，可以举一反三如\`< !-- .element: style = "color:red" -- > \`
   - 标题下的\`< !-- .slide: class="column-2" -- > \` 可让当前页面两栏展示
-- \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
-  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey >\`等
-
-## 获取用户信息
-
-本网站不会获取用户的个人信息。
-
-## 利用用户信息
-
-本网站不使用使用者的个人信息。
-
-## 用户信息的第三方提供
-
-本网站不会向第三方提供使用者的个人信息。
-
-## 使用工具
-
-本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
-
-## 联系信息
-
-如果有什么不明白的地方请咨询。
-
-## 联系方式
-
-个人博客：https://seiri-blog.github.io/
+  - \`* 内容 * \` 会让内容文字更小。 也可以用\` < small > 内容</ > \`
+  - 预置了一些常用的颜色标签，如\`< yellow > \`、\` < red > \`、\` < green > \`、\` < grey > \`等
 `;var di=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Py(r){return r&&r.__esModule&&Object.prototype.hasOwnProperty.call(r,"default")?r.default:r}var Xa={},Ly={get exports(){return Xa},set exports(r){Xa=r}};/**
  * @license
  * Lodash <https://lodash.com/>
