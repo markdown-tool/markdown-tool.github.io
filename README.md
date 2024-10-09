@@ -28,11 +28,3 @@
 ## 使用工具
 
 本网站使用 Google Analytics（Google Inc.）作为分析工具，Google Analytics 可能会自动获取使用者的信息。关于获取的信息、使用目的、向第三方提供等，请根据分析经营者的隐私政策进行确认。
-
-## 联系信息
-
-如果有什么不明白的地方请咨询。
-
-## 联系方式
-
-个人博客：https://seiri-blog.github.io/
