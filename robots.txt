@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mdtool.eu.org/sitemap.xml
+Sitemap: https://markdown-tool.github.io/sitemap.xml
