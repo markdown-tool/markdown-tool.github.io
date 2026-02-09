@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 220 16% 96%;
+    --foreground: 220 20% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 90%;
+    --secondary-foreground: 220 20% 10%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 210 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 87%;
+    --input: 220 13% 87%;
+    --ring: 210 100% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 210 100% 50%;
+  }
+  .dark {
+    --background: 220 20% 7%;
+    --foreground: 220 14% 92%;
+    --card: 220 18% 10%;
+    --card-foreground: 220 14% 92%;
+    --popover: 220 18% 10%;
+    --popover-foreground: 220 14% 92%;
+    --primary: 210 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 16% 16%;
+    --secondary-foreground: 220 14% 92%;
+    --muted: 220 16% 14%;
+    --muted-foreground: 220 10% 55%;
+    --accent: 210 100% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 16% 18%;
+    --input: 220 16% 18%;
+    --ring: 210 100% 55%;
+    --sidebar-background: 220 20% 7%;
+    --sidebar-foreground: 220 14% 92%;
+    --sidebar-primary: 210 100% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 16% 14%;
+    --sidebar-accent-foreground: 220 14% 92%;
+    --sidebar-border: 220 16% 18%;
+    --sidebar-ring: 210 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Markdown preview styles */
+.markdown-preview h1 {
+  @apply text-3xl font-bold mb-4 mt-6 text-foreground;
+}
+.markdown-preview h2 {
+  @apply text-2xl font-bold mb-3 mt-5 text-foreground;
+}
+.markdown-preview h3 {
+  @apply text-xl font-semibold mb-2 mt-4 text-foreground;
+}
+.markdown-preview h4 {
+  @apply text-lg font-semibold mb-2 mt-3 text-foreground;
+}
+.markdown-preview h5 {
+  @apply text-base font-semibold mb-1 mt-3 text-foreground;
+}
+.markdown-preview h6 {
+  @apply text-sm font-semibold mb-1 mt-2 text-muted-foreground;
+}
+.markdown-preview p {
+  @apply mb-4 leading-relaxed text-foreground;
+}
+.markdown-preview ul {
+  @apply list-disc list-inside mb-4 space-y-1;
+}
+.markdown-preview ol {
+  @apply list-decimal list-inside mb-4 space-y-1;
+}
+.markdown-preview li {
+  @apply text-foreground;
+}
+.markdown-preview blockquote {
+  @apply border-l-4 border-primary pl-4 italic my-4 text-muted-foreground;
+}
+.markdown-preview code {
+  @apply bg-muted text-foreground px-1.5 py-0.5 rounded text-sm font-mono;
+}
+.markdown-preview pre {
+  @apply bg-muted rounded-lg p-4 mb-4 overflow-x-auto;
+}
+.markdown-preview pre code {
+  @apply bg-transparent px-0 py-0;
+}
+.markdown-preview a {
+  @apply text-primary underline underline-offset-2 hover:opacity-80;
+}
+.markdown-preview hr {
+  @apply my-6 border-border;
+}
+.markdown-preview table {
+  @apply w-full mb-4 border-collapse;
+}
+.markdown-preview th {
+  @apply border border-border px-4 py-2 bg-muted text-left font-semibold;
+}
+.markdown-preview td {
+  @apply border border-border px-4 py-2;
+}
+.markdown-preview img {
+  @apply max-w-full rounded-lg my-4;
+}
+.markdown-preview strong {
+  @apply font-bold;
+}
+.markdown-preview em {
+  @apply italic;
+}
+
+/* PDF-specific styles */
+.pdf-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 24px;
+  color: #1a1a2e;
+}
+.pdf-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  color: #1a1a2e;
+}
+.pdf-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #1a1a2e;
+}
+.pdf-content p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #333;
+}
+.pdf-content ul {
+  list-style-type: disc;
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+.pdf-content ol {
+  list-style-type: decimal;
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+.pdf-content blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 16px;
+  font-style: italic;
+  margin: 16px 0;
+  color: #555;
+}
+.pdf-content code {
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: 'Courier New', monospace;
+}
+.pdf-content pre {
+  background: #f1f5f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+.pdf-content pre code {
+  background: transparent;
+  padding: 0;
+}
+.pdf-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+.pdf-content th,
+.pdf-content td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+.pdf-content th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
