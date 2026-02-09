@@ -1,28 +1,34 @@
-import React from "react"
-import type { Metadata, Viewport } from 'next'
-import { Inter, JetBrains_Mono } from 'next/font/google'
-import '@/styles/globals.css'
+import type { ReactNode } from "react";
+import Script from "next/script";
+import "@/styles/style.css";
+import "@/styles/animate.css";
+import "reveal.js/dist/reveal.css";
+import "reveal.js/dist/theme/black.css";
+import "reveal.js/plugin/highlight/monokai.css";
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const _jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains-mono' })
-
-export const metadata: Metadata = {
-  title: 'MarkdownPad - Editor & PDF Export',
-  description: 'A powerful markdown editor with live preview and one-click PDF export. Write, preview, and export your markdown documents.',
-}
-
-export const viewport: Viewport = {
-  themeColor: '#0a0f1a',
-}
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${_inter.variable} ${_jetbrainsMono.variable} font-sans antialiased`}>{children}</body>
+    <html lang="zh-cmn-Hans">
+      <body>
+        {children}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4988552421895566"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E4CG1XRFV6"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E4CG1XRFV6');`}
+        </Script>
+      </body>
     </html>
-  )
+  );
 }
