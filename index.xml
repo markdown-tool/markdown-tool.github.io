@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>在线MarkDown转PPT工具</title>
+    <link>https://markdown-tool.github.io/</link>
+    <description>一个在线的markdown快速转PPT的制作工具</description>
+    <generator>mdtool.eu.org</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 30 October 2022 15:16:15 +0000</lastBuildDate>
+    <atom:link href="https://markdown-tool.github.io/index.xml" rel="self"
+      type="application/rss+xml" />
+    <item>
+      <title>在线MarkDown转PPT工具</title>
+      <link>https://markdown-tool.github.io/</link>
+      <pubDate>Sun, 30 October 2022 15:16:15 +0000</pubDate>
+      <guid>https://markdown-tool.github.io/</guid>
+      <description>一个在线的markdown快速转PPT的制作工具</description>
+    </item>
+  </channel>
+</rss>
